@@ -1,0 +1,27 @@
+@import url(./assets/css/base.css);
+@import url(./assets/css/header.css);
+@import url(./assets/css/boton.css);
+@import url(./assets/css/banner.css);
+@import url(./assets/css/home-products.css);
+@import url(./assets/css/footer.css);
+
+:root {
+    --fonte: 'Raleway', sans-serif;
+    --fonte-peso-destaque: 700;
+    --fonte-peso-padrao: 500; 
+    --fonte-peso-botao-mobile: 600;
+    --fonte-peso-botao-desktop: 400;
+
+    --azul-principal: #2A7AE4;
+    --azul-botao-hover: #5595E9;
+    --azul-botao-secundario-hover: #D4E4FA;
+    --branco: #FFFFFF;
+    --cinza-fonte: #464646;
+    --azul-fundo: #EAF2FD;
+    --cinza-secundario: #A2A2A2;
+    --cinza-input: #C8C8C8;
+    --cinza-fundo: #F5F5F5;
+    --cinza-fundo-tela: #E5E5E5;
+    --error: #ff0000;
+
+}

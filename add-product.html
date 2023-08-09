@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Produto | Alura Geek</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/add-product-header.css">
+    <link rel="stylesheet" href="assets/css/add-product.css">
+   
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav-desktop">
+                <img src="assets/img/Logo-Alura.png" alt="Logotipo Alura Geek" class="logo">
+                <input class="busca" type="search" name="busca" placeholder="Que desea encontrar?">
+            </div>
+            <a href="#" class="botao-secundario">Iniciar Sesion</a>
+            <img class="icone" src="assets/img/lupa-negro.png" alt="Ícone de pesquisa" class="icone">
+        </div>
+    </header>
+
+    <main>
+        <form action="descripcion-product.html">
+            <fieldset class="add-produtos">
+                <div class="cadastro-produtos">
+                    <h1>Añadir nuevo producto</h1>
+                    <label for="cadastro" class="input-label">URL de la imagen</label>
+                    <input type="text" class="add-produtos__input" id="cadastro">
+                    <label for="cadastro" class="input-label">Categoria</label>
+                    <input type="text" class="add-produtos__input" id="cadastro">
+                    <label for="cadastro" class="input-label">Nombre del producto</label>
+                    <input type="text" class="add-produtos__input" id="cadastro" maxlength="20">
+                    <label for="cadastro" class="input-label">Precio del producto</label>
+                    <input type="text" step="0.01" min="0.01" class="add-produtos__input money" id="cadastro" name="preco" data-tipo="preco" maxlength="15" placeholder="$ 0,00 - Digite unicamente números">
+                    <label for="descricao" class="input-label">Descripcion del producto</label>
+                    <textarea name="descricao" id="cadastro" cols="20" rows="10" maxlength="150"></textarea>
+                    <button type="button" class="botao">Añadir producto</button>
+                </div>
+            </fieldset>
+        </form>
+        
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-lista">
+                <img src="assets/img/Logo-Alura.png" alt="Logotipo Alura Geek">
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Politica de Privacidad</a></li>
+                    <li><a href="#">Programa de Fidelidad</a></li>
+                    <li><a href="#">Nuestras Tiendas</a></li>
+                    <li><a href="#">Quiero ser franquiciado</a></li>
+                    <li><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <fieldset class="fale-conosco">
+                <legend>Contactanos</legend>
+                <label class="input-label" for="nome">Nombre</label>
+                <input type="text" name="nome" id="nome" data-type="nome" required>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="10" minlength="5" maxlength="200" placeholder="Escriba su mensaje"></textarea>
+                <div class="enviar">
+                    <button type="button" class="botao">Enviar mensaje</button>
+                </div>
+            </fieldset>
+        </div>
+        <div class="creditos">
+            <p>Desarrollado por Margarita Santamaria<br>2023</p>
+            <p class="referencia">Alura Geek</p>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/add-product.js"></script>
+</body>
+</html>
